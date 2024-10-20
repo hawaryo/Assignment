@@ -1,5 +1,6 @@
-# first-assignment home page clone of (https://preview.colorlib.com/?authuser=0#hepta)
+# first-assignment Home page clone
 **preview: https://codesandbox.io/p/devbox/assignment-1-j8w3d9**
+**original: https://preview.colorlib.com/?authuser=0#hepta**
 
 **Installation:**
 1. Install Node.js and npm.
