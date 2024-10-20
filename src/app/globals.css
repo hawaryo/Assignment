@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('/fonts/AbrilFatface-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Mukta Mahee';
+    src: url('/fonts/MuktaMahee-Regular.ttf');
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Abril Fatface', sans-serif;
+    font-weight: 400;
+}
+
+p,
+div,
+span,
+a {
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+
+
+a {
+    text-decoration: none;
+}

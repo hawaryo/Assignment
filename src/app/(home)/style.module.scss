@@ -1,0 +1,350 @@
+.colorwhite {
+  color: #ffffff;
+}
+/*  header section */
+.nav {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  z-index: 2;
+
+  @media (min-width: 1000px) {
+    padding: 32px 128px;
+  }
+}
+.burger {
+  position: relative;
+  z-index: 2;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainheader {
+  padding-bottom: 64px;
+  background-image: url("/slider-1.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+}
+
+.homelogo {
+  font-weight: bold;
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.sidemenu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  font-size: 2.5rem;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.close {
+  position: relative;
+  z-index: 2;
+  color: #131313;
+  font-size: 3rem;
+}
+.headtitle {
+  font-size: 4rem;
+  text-align: center;
+  margin-block-start: 80px;
+  margin-block-end: 16px;
+
+  @media (max-width: 550px) {
+    font-size: 2.7rem;
+  }
+}
+
+.headtext {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 64px;
+  font-weight: bold;
+}
+
+.headlink {
+  height: 40px;
+  padding: 8px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+  max-width: 180px;
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 1.2em;
+
+  &:hover {
+    background-color: rgb(255 255 255);
+    color: #636363;
+  }
+}
+/* information section */
+.information {
+  margin: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.textsection {
+  max-width: 500px;
+  padding: 16px;
+  padding-inline-start: 64px;
+}
+
+.sectiontitle {
+  font-family: "Abril Fatface";
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+.textsection p {
+  font-size: 1.2rem;
+  color: #8a8a8a;
+}
+.textsection span {
+  font-size: 1.2rem;
+  color: #77eed4;
+}
+
+.playvideo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+
+  &:hover {
+    svg {
+      fill: #575757;
+    }
+    span {
+      color: #575757;
+    }
+  }
+}
+
+/* benefits section */
+.benefits {
+  background-color: #fafafa;
+  padding: 64px;
+}
+.benefitscardcontainer {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 88px;
+  margin: 0 auto;
+}
+
+.benefitscard {
+  text-align: center;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.benefitstext {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 64px auto;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+/* blog section */
+
+.blogsection {
+  text-align: center;
+  padding: 64px;
+  background-image: linear-gradient(173deg, #ffffff 44.9%, #65c0ba 45%);
+}
+.blogsectiontext {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 64px auto;
+
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+.hoverimages {
+  cursor: url("/Arrow-3.svg"), pointer; /* Fallback to auto or pointer */
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 8px rgba(63, 63, 63, 0.1);
+  margin-block-end: 64px;
+}
+/* blog section */
+
+.blogscard {
+  background-color: #ffffff;
+  max-width: 300px;
+  height: fit-content;
+  border-radius: 4px;
+}
+
+.blogscard img {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px 4px 0 0;
+}
+
+.blogscardtext {
+  padding: 18px;
+}
+.blogscard a {
+  display: inline-block;
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 1.25rem;
+  max-width: 200px;
+  padding: 0;
+  &:hover {
+    color: #65c0ba;
+  }
+}
+
+.flexblogcard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  text-align: start;
+}
+/* customer review section */
+
+.customerssection {
+  padding: 64px;
+  background-color: #fcfbfb;
+}
+
+.customerssection > h2 {
+  text-align: center;
+  font-size: 2.7rem;
+  margin-bottom: 64px;
+}
+
+.customerscards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px;
+}
+
+.customersreview {
+  max-width: 200px;
+
+  p {
+    margin-top: 8px;
+  }
+}
+.customersreview img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 0 16px 0;
+}
+
+/* destination section */
+.Destination {
+  padding: 64px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.DestinationCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px;
+  text-align: start;
+}
+.DestinationRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+.footer {
+  background-color: #292929;
+  color: #ffffff;
+  padding: 64px;
+  text-align: center;
+}
+
+.footerColumns {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footerconstact {
+  max-width: 190px;
+
+  dd {
+    margin: 2px 0 0 16px;
+  }
+}
+.emaillabel {
+  display: block;
+}
+.emailinput {
+  background-color: #0c0c0c;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+}
+
+.emailinput:focus,
+.emaillabel:hover {
+  outline: none;
+  border-bottom: #fafafa solid 2px;
+}
+
+.emailbutton {
+  background-color: #0c0c0c;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+}
+
+.hr {
+  background-color: #0c0c0c;
+  width: 50%;
+}
