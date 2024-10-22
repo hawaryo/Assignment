@@ -1,0 +1,12 @@
+.body > :not(footer) {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.sidebar {
+  max-width: 300px;
+  @media screen and (max-width: 931px) {
+    margin-top: 32px;
+  }
+}

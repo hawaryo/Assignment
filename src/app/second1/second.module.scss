@@ -1,0 +1,17 @@
+.oldprice {
+  text-decoration: line-through;
+}
+
+.productdescription {
+  max-width: 470px;
+}
+
+.addtocarttext::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-inline-end: 4px;
+  background-image: url("/shopping-cart.svg");
+  background-size: cover;
+}

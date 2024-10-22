@@ -1,0 +1,17 @@
+.cardimages {
+  border-radius: 0 4px 4px 0;
+  height: 100%;
+
+  @media screen and (max-width: 700px) {
+    display: none;
+  }
+}
+
+.card {
+  max-width: 470px;
+  max-height: 250px;
+
+  @media screen and (max-width: 978px) {
+    max-width: 100%;
+  }
+}
