@@ -2,8 +2,8 @@
 
 ### Links
 
-    - **[Second Assignment Part-1 - Live Demo](https://239e08ad.first-assignment.pages.dev/second1)**
-    - **[Assignment in code sandbox](https://codesandbox.io/p/devbox/assignment-1-j8w3d9)**
+- **[Second Assignment Part-1 - Live Demo](https://239e08ad.first-assignment.pages.dev/second1)**
+- **[Assignment in code sandbox](https://codesandbox.io/p/devbox/assignment-1-j8w3d9)**
 
 The Assignment folder directory:
 
@@ -13,7 +13,7 @@ A[src] --> B(app) --> C(second1)
 
 ```
 
-**The original: https://startbootstrap.com/previews/shop-item**
+**The Original Website for Reference: https://startbootstrap.com/previews/shop-item**
 
 **Installation:**
 

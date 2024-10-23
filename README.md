@@ -3,7 +3,6 @@
 ### Links
 
 - **[First Assignment - Live Demo](https://6f221723.first-assignment.pages.dev/)**
-
 - **[Frist Assignment in code sandbox](https://codesandbox.io/p/devbox/assignment-1-j8w3d9)**
 
 _original: https://preview.colorlib.com/?authuser=0#hepta_
