@@ -1,7 +1,18 @@
 # Second-assignment Part 1 Home page clone
 
-    - Assignment Live: https://239e08ad.first-assignment.pages.dev/second1
-    - Assignment in code sand box: https://codesandbox.io/p/devbox/assignment-1-j8w3d9
+### Links
+
+    - **[Second Assignment Part-1 - Live Demo](https://239e08ad.first-assignment.pages.dev/second1)**
+    - **[Assignment in code sandbox](https://codesandbox.io/p/devbox/assignment-1-j8w3d9)**
+    ```
+
+The Assignment folder directory:
+
+```mermaid
+graph LR
+A[src] --> B(app) --> C(second1)
+
+```
 
 **The original: https://startbootstrap.com/previews/shop-item**
 
