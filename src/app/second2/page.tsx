@@ -85,17 +85,27 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="d-flex justify-content-between flex-wrap gap-2">
-          <Card />
-          <Card />
+        <div className="d-flex justify-content-between flex-wrap gap-4">
+          <Card
+            type="World"
+            date="Nov 12"
+            title="Featured post"
+            typeStyle="text-primary"
+          />
+          <Card
+            type="Design"
+            date="Nov 11"
+            title="Post title"
+            typeStyle="text-danger"
+          />
         </div>
       </section>
       {/* section three */}
 
-      <main className=" mt-4 mb-4 d-flex justify-content-between  flex-wrap">
+      <main className=" mt-4  d-flex justify-content-between  flex-wrap  ">
         <div className="col-md-8">
           <article>
-            <h3> From the Firehose</h3>
+            <h3 className="fw-lighter"> From the Firehose</h3>
             <hr />
             <h2>Sample blog post</h2>
             <p className="text-muted">
@@ -131,12 +141,13 @@ export default function Page() {
               consectetur ac, vestibulum at eros.
             </p>
             <h3>Sub-heading</h3>
-            <code>Example code block</code>
+
             <p>
               Cum sociis natoque penatibus et magnis dis parturient montes,
               nascetur ridiculus mus.
             </p>
-            <p>
+            <code>Example code block</code>
+            <p className="mt-3">
               Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem
               malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus
               commodo, tortor mauris condimentum nibh, ut fermentum massa.
@@ -182,7 +193,7 @@ export default function Page() {
           </article>
 
           <article>
-            <h2>Another blog post</h2>
+            <h2 className="mt-5">Another blog post</h2>
             <p className="text-muted">
               December 23, 2013 by <a href="#">Jacob</a>
             </p>
@@ -211,7 +222,7 @@ export default function Page() {
           </article>
 
           <article>
-            <h2>New feature</h2>
+            <h2 className="mt-5">New feature</h2>
             <p className="text-muted">
               December 14, 2013 by <a href="#">Chris</a>
             </p>
@@ -240,10 +251,14 @@ export default function Page() {
               Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae
               elit libero, a pharetra augue.
             </p>
-            <a href="#" className="btn btn-outline-primary">
+
+            <a href="#" className="btn btn-outline-primary mb-4">
               Older
             </a>
-            <a href="#" className="btn btn-outline-secondary disabled">
+            <a
+              href="#"
+              className="btn btn-outline-secondary disabled mb-4 ms-2 "
+            >
               Newer
             </a>
           </article>
