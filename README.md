@@ -4,7 +4,7 @@
 
 ### Assignment 1
 
-#### [Assignment 1](<https://github.com/hawaryo/Assignment/tree/05f3ac7cb568a64bebe1f9e55c80175cdd6c3bf1/src/app/(first)>)
+#### [Assignment 1](<https://github.com/hawaryo/Assignment/tree/05f3ac7cb568a64bebe1f9e55c80175cdd6c3bf1/src/app/(frist)>)
 
 ### Assignment 2
 
