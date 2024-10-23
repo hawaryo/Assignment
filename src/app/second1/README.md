@@ -1,7 +1,7 @@
-# Second-assignment Home page clone
+# Second-assignment Part 1 Home page clone
 
-**Assignment Live: https://239e08ad.first-assignment.pages.dev/second1**
-**Assignment in code sand box: https://codesandbox.io/p/devbox/assignment-1-j8w3d9**
+    - **Assignment Live: https://239e08ad.first-assignment.pages.dev/second1**
+    - **Assignment in code sand box: https://codesandbox.io/p/devbox/assignment-1-j8w3d9**
 
 **The original: https://startbootstrap.com/previews/shop-item**
 
