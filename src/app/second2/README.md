@@ -3,8 +3,6 @@
 - **[Second Assignment Part-2 - Live Demo](https://239e08ad.first-assignment.pages.dev/second2)**
 - **[Assignment in code sandbox](https://codesandbox.io/p/devbox/assignment-1-j8w3d9)**
 
-**The original: https://getbootstrap.com/docs/4.0/examples/blog/**
-
 The Assignment folder directory:
 
 ```mermaid
@@ -12,6 +10,8 @@ graph LR
 A[src] --> B(app) --> C(second2)
 
 ```
+
+**The Original Website for Reference: https://getbootstrap.com/docs/4.0/examples/blog/**
 
 **Installation:**
 
