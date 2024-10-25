@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /first/
+Disallow: /second1/
+Disallow: /second2/
+Disallow: /thrid/

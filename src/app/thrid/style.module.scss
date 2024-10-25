@@ -1,1 +1,28 @@
+@import "_font.module.scss";
 
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    font-family: $secondary-font;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+.navlinks {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: aqua;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+  }
+}
