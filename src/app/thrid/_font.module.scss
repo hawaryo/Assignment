@@ -1,2 +1,12 @@
-$primary-font: "inter", sans-serif;
-$secondary-font: "roboto    ", sans-serif;
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-VariableFont_opsz,wght.ttf");
+}
+
+$primary-font: "Inter", sans-serif;
+$secondary-font: "Roboto", sans-serif;

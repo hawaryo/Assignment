@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import "bootstrap/dist/css/bootstrap.css";
+import BootstrapClient from "../bootstrapclinet";
+import React from "react";
 
-import "../globals.css";
+import "./global.scss";
 
 export const metadata: Metadata = {
   title: "third assignment",
@@ -14,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <BootstrapClient />
       <body>{children}</body>
     </html>
   );

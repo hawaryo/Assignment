@@ -1,0 +1,19 @@
+@use "./color.module" as color;
+@use "./font.module" as font;
+
+%primaryButton {
+  background-color: color.$tertiary-color;
+  color: color.$primary-color;
+  font-family: font.$primary-font;
+  font-weight: 505;
+  font-size: 1rem;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 32px;
+  transition: 0.5s;
+  width: 150px;
+
+  &:hover {
+    background-color: color.$fourth-color;
+  }
+}

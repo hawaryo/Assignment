@@ -1,0 +1,37 @@
+@use "../color.module" as color;
+@use "../button.module" as button;
+@use "../font.module" as font;
+
+.section {
+  color: color.$primary-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 900px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.welcometext {
+  padding: 16px;
+  text-align: center;
+  max-width: 720px;
+  font-size: 1rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.primarybutton {
+  @extend %primaryButton;
+}

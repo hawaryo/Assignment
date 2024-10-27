@@ -1,0 +1,41 @@
+@use "./font.module" as font;
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: font.$primary-font, sans-serif;
+  font-weight: 700;
+}
+
+p,
+div,
+span,
+a {
+  font-family: font.$secondary-font, sans-serif;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* *,
+*::before,
+*::after {
+    border: 1px solid red;
+} */

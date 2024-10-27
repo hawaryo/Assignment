@@ -1,0 +1,63 @@
+@use "../font.module.scss" as font;
+@use "../color.module" as color;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 64px;
+
+  .logo {
+    font-family: font.$secondary-font;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+.navlinks {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 0rem;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+      position: absolute;
+      background-color: aliceblue;
+      border-radius: 8px;
+      min-height: 250px;
+      margin-top: 16px;
+      padding: 8px;
+      right: 5vw;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: color.$secondary-color;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    padding: 8px;
+
+    &:hover {
+      color: color.$primary-color;
+      background-color: color.$tertiary-color;
+    }
+  }
+}
+.toggle {
+  display: none;
+  opacity: 1;
+  font-size: 2rem;
+  font-weight: 700;
+  @media screen and (max-width: 800px) {
+    display: block;
+    opacity: 1;
+    transform: rotate(90deg);
+  }
+}
