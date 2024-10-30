@@ -1,13 +1,19 @@
 @use "../font.module.scss" as font;
 @use "../color.module.scss" as color;
+
 .questionsection {
   padding: 60px 16px;
   background-color: #f2f5f4;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+
+
   gap: 64px;
+
   .sectionintro {
+
     h3 {
       font-size: 2rem;
       font-weight: 400;
@@ -18,31 +24,65 @@
       color: #575757;
     }
 
-    @media screen and (min-width: 990px) {
+    @media screen and (min-width: 900px) {
+      max-width: 868px;
+    }
+
+    @media screen and (min-width: 1320px) {
       max-width: 320px;
+      margin-inline-start: 15%;
     }
   }
 
   .questions {
+ flex-grow: 1;
     summary {
-      margin-bottom: 8px;
+     
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
       font-family: font.$primary-font, sans-serif;
       font-size: 1.2rem;
       list-style: none;
       font-weight: 550;
+      transition: 200ms ease-out;
+
       &::first-letter {
         color: color.$tertiary-color;
+
+
+      }
+
+      &:hover {
+        color: color.$tertiary-color;
+      }
+
+      p {
+        margin: 0;
       }
     }
 
     details {
       max-width: 856px;
-      padding: 16px;
+      padding: 16px 32px;
       margin-bottom: 16px;
       font-family: font.$secondary-font, sans-serif;
       font-size: 1rem;
       background-color: color.$primary-color;
       box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 5%);
+
+      &[open]>summary {
+        color: color.$tertiary-color;
+        margin-bottom: 8px;
+
+        .arrow {
+          transform: rotate(90deg);
+          transform-origin: 50% 50%;
+        }
+      }
+
     }
   }
+
+  
 }

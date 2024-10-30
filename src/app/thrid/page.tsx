@@ -10,6 +10,7 @@ import SectionIntro from "./component/SectionIntro";
 import TeamSection from "./component/TeamSection";
 import QuestionSection from "./component/QuestionSection";
 import DropDown from "./component/DropDown";
+import ContactSection from "./component/ContactSection";
 
 export default function Page() {
   return (
@@ -47,6 +48,7 @@ export default function Page() {
       <ImageTabs />
       <TeamSection />
       <QuestionSection />
+        <ContactSection />
     </>
   );
 }

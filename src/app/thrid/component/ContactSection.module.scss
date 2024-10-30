@@ -1,0 +1,33 @@
+.contactsection{
+    padding: 16px;
+  
+    .maincontant{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+    }
+
+.cardscontainer{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.contactform{
+    background-color: #f2f5f4;
+    padding: 32px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+
+    input{
+        padding: 8px;
+        width: 280px;
+        height: 40px;
+        border: 1px solid #ededed;
+    }
+}
+
+}
