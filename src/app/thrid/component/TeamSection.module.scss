@@ -1,0 +1,35 @@
+@use "../color.module.scss" as color;
+.teamsection {
+  text-align: center;
+  h3 {
+    font-size: 2rem;
+    margin: 32px 0;
+    &::after,
+    &::before {
+      content: " -----";
+      margin-right: 16px;
+      padding: 0;
+      color: color.$tertiary-color;
+      letter-spacing: -3px;
+      margin-left: 16px;
+      font-weight: 200;
+    }
+  }
+}
+
+.teamimages {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  img {
+    flex-shrink: 1;
+    max-width: 600px;
+
+    @media screen and (min-width: 1344px) {
+      max-width: 300px;
+    }
+  }
+}

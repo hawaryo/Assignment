@@ -1,0 +1,22 @@
+@use "../font.module.scss" as font;
+@use "../color.module" as color;
+
+.servicescard {
+  padding: 24px;
+  background-color: color.$primary-color;
+  box-shadow: 5px 2px 20px 2px rgb(0 0 0 / 20%);
+  transition: 0.75s;
+  i {
+    font-size: 32px;
+    color: color.$tertiary-color;
+  }
+
+  &:hover {
+    background-color: color.$tertiary-color;
+    color: color.$primary-color;
+
+    i {
+      color: color.$primary-color;
+    }
+  }
+}

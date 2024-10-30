@@ -1,0 +1,31 @@
+@use "../color.module" as color;
+.mainSection {
+  text-align: center;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imagesSection {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  max-width: 1400px;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

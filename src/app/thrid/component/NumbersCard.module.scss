@@ -1,0 +1,25 @@
+@use "../_color.module.scss" as color;
+@use "../_font.module.scss" as font;
+
+.numbercard {
+  display: flex;
+  gap: 8px;
+  max-width: 200px;
+
+  i {
+    font-size: 40px;
+    color: color.$tertiary-color;
+    transform: translateY(-5px);
+  }
+
+  span {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  p {
+    margin: 0;
+    font-family: font.$primary-font;
+    color: #707070;
+  }
+}

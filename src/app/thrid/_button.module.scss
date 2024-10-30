@@ -17,3 +17,20 @@
     background-color: color.$fourth-color;
   }
 }
+
+%secondaryButton {
+  background-color: rgb(0 0 0 / 20%);
+  border: 2px solid color.$tertiary-color;
+  color: color.$primary-color;
+  font-family: font.$primary-font;
+  font-weight: 505;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 32px;
+  transition: 0.5s;
+  width: 150px;
+
+  &:hover {
+    background-color: color.$fourth-color;
+  }
+}

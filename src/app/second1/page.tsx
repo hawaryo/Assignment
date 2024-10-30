@@ -109,6 +109,7 @@ export default function Page() {
             type="tel"
             name="items-number"
             value="1"
+            readOnly
           />
           <button className="btn btn-outline-dark mt-auto">
             <span className={styles.addtocarttext}>Add to cart</span>

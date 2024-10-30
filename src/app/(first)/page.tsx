@@ -380,7 +380,7 @@ export default function Page() {
           <div className={styles.DestinationCard}>
             <Image
               alt="play video icon"
-              src="/blog-2.webp "
+              src="/blog-2.webp"
               width={240}
               height={171}
             ></Image>

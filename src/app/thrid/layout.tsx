@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.css";
 import BootstrapClient from "../bootstrapclinet";
+import type { Metadata } from "next";
+import "bootstrap/dist/css/bootstrap.css";
+
 import React from "react";
 
 import "./global.scss";

@@ -1,8 +1,9 @@
 @use "../_button.module.scss" as button;
-@use "../color.module.scss" as color;
+@use "../_color.module.scss" as color;
+@use "../_font.module.scss" as font;
 
 .aboutsection {
-  padding: 16px;
+  padding: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +25,7 @@
         margin-top: 10px;
 
         i {
-          color: aquamarine;
+          color: color.$tertiary-color;
           margin-inline-end: 4px;
         }
       }
@@ -53,21 +54,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(223, 223, 223);
-  padding: 16px;
-  height: 277px;
-}
-
-.numbercard {
-  span {
-    &::before {
-      content: "";
-      background-image: url("/third/SVG/emoji-smile.svg");
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      background-size: cover;
-      color: aquamarine;
-    }
-  }
+  gap: 72px;
+  flex-wrap: wrap;
+  background-color: rgb(247, 247, 247);
+  padding: 32px 0;
+  min-height: 250px;
 }

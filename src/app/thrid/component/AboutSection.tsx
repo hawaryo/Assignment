@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./About.module.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import NumbersCard from "./NumbersCard";
 export default function AboutSection() {
   return (
     <>
@@ -43,14 +44,30 @@ export default function AboutSection() {
       </section>
 
       <section className={styles.numbersection}>
-        <div className={styles.numbercard}>
-          <span>232</span>
-          <p className="">Happy Clients</p>
-          <p className="">consequuntur quae</p>
-        </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <NumbersCard
+          icon="bi bi-emoji-smile"
+          number={232}
+          title="Happy Clients"
+          text="consequuntur quae"
+        />
+        <NumbersCard
+          icon="bi bi-journal-richtext "
+          number={521}
+          title="Projects"
+          text="adipisci atque cum quia aut"
+        />
+        <NumbersCard
+          icon="bi bi-headset"
+          number={1453}
+          title="Hours Of Support"
+          text="aut commodi quaerat"
+        />
+        <NumbersCard
+          icon="bi bi-people"
+          number={32}
+          title="Hard Workers"
+          text="rerum asperiores dolor"
+        />
       </section>
     </>
   );

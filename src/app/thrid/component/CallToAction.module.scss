@@ -1,0 +1,32 @@
+@use "../font.module.scss" as font;
+@use "../color.module" as color;
+@use "../button.module.scss";
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/third/cta-bg.webp");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 340px;
+
+  div {
+    text-align: center;
+    max-width: 1048px;
+
+    h2 {
+      color: color.$primary-color;
+    }
+
+    p {
+      color: color.$primary-color;
+    }
+
+    button {
+      @extend %secondaryButton;
+      font-size: 20px;
+      width: 200px;
+      margin-top: 16px;
+    }
+  }
+}
