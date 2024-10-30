@@ -12,9 +12,9 @@ const nextConfig = {
     ],
   },
   //
-  sassOptions: {
+/*   sassOptions: {
     silenceDeprecations: ["legacy-js-api"],
-  },
+  }, */
   //
 };
 
