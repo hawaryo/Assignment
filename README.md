@@ -16,9 +16,9 @@
 
 #### [Assignment 3](https://github.com/hawaryo/Assignment/tree/main/src/app/thrid)
 
-### Assignment (js)
+### Tasks (js)
 
-#### [Assignment 3](https://github.com/hawaryo/Assignment/tree/main/src/app/js-task)
+#### [Tasks js](https://github.com/hawaryo/Assignment/tree/main/src/app/js-task)
 
 
 **Installation:**
