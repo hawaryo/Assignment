@@ -12,9 +12,13 @@
 
 #### [Assignment 2 part2](https://github.com/hawaryo/Assignment/tree/main/src/app/second2)
 
-### Assignment 3
+### Assignment 3 (sass)
 
 #### [Assignment 3](https://github.com/hawaryo/Assignment/tree/main/src/app/thrid)
+
+### Assignment (js)
+
+#### [Assignment 3](https://github.com/hawaryo/Assignment/tree/main/src/app/js-task)
 
 
 **Installation:**
