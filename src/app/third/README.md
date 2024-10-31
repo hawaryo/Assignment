@@ -2,7 +2,7 @@
 
 ### Links
 
-- **[First Assignment - Live Demo]()**
+- **[Third Assignment - Live Demo](https://first-assignment.pages.dev/third)**
 
 The Assignment folder directory:
 
