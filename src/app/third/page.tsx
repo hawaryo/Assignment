@@ -9,7 +9,7 @@ import styles from "./page.module.scss";
 import SectionIntro from "./component/SectionIntro";
 import TeamSection from "./component/TeamSection";
 import QuestionSection from "./component/QuestionSection";
-import DropDown from "./component/DropDown";
+import Footer from "./component/footer";
 import ContactSection from "./component/ContactSection";
 
 export default function Page() {
@@ -49,6 +49,7 @@ export default function Page() {
       <TeamSection />
       <QuestionSection />
         <ContactSection />
+      <Footer />
     </>
   );
 }

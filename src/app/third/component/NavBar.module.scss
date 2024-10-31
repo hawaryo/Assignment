@@ -5,7 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 64px;
+  padding: 16px 64px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    background-color: color.$primary-color;
+    width: 100vw;
 
   .logo {
     font-family: font.$secondary-font;

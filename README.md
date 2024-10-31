@@ -14,7 +14,7 @@
 
 ### Assignment 3 (sass)
 
-#### [Assignment 3](https://github.com/hawaryo/Assignment/tree/main/src/app/thrid)
+#### [Assignment 3](https://github.com/hawaryo/Assignment/tree/main/src/app/third)
 
 ### Tasks (js)
 

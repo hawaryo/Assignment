@@ -1,18 +1,30 @@
 @use "../font.module.scss" as font;
-@use "../color.module.scss" as color;
+@use "../color.module" as color;
 
 .questionsection {
-  padding: 60px 16px;
-  background-color: #f2f5f4;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+   padding: 60px 16px;
+  background-color: #f2f5f4;
 
+  .main{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 64px;
 
+        @media screen and (min-width: 888px) and (max-width: 1400px) {
+            max-width:865px;
+          }
+  }
+ 
+  
 
-  gap: 64px;
-
+  
+  
   .sectionintro {
+    
 
     h3 {
       font-size: 2rem;
@@ -24,23 +36,26 @@
       color: #575757;
     }
 
-    @media screen and (min-width: 900px) {
+  @media screen and (min-width: 900px) {
       max-width: 868px;
     }
 
-    @media screen and (min-width: 1320px) {
+    @media screen and (min-width: 1490px) {
       max-width: 320px;
-      margin-inline-start: 15%;
-    }
+      
+    } 
   }
 
   .questions {
+    @media screen and (min-width: 1490px) {
+        width: 800px;
+      }
  flex-grow: 1;
     summary {
      
       display: flex;
       justify-content: space-between;
-      align-items: start;
+      align-items: flex-start;
       font-family: font.$primary-font, sans-serif;
       font-size: 1.2rem;
       list-style: none;
@@ -64,6 +79,7 @@
 
     details {
       max-width: 856px;
+      
       padding: 16px 32px;
       margin-bottom: 16px;
       font-family: font.$secondary-font, sans-serif;
@@ -72,6 +88,7 @@
       box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 5%);
 
       &[open]>summary {
+        
         color: color.$tertiary-color;
         margin-bottom: 8px;
 

@@ -1,5 +1,6 @@
+@use "../button.module" as button;
 .contactsection{
-    padding: 16px;
+    padding: 16px 16px 64px 16px;
   
     .maincontant{
   display: flex;
@@ -12,6 +13,10 @@
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: 700px) {
+        grid-template-columns: 1fr ;
+        width: 100%;
+    }
     
 }
 
@@ -30,4 +35,9 @@
     }
 }
 
+
+button{
+    @extend %primaryButton;
+    margin: 0 auto 0 auto;
+}
 }

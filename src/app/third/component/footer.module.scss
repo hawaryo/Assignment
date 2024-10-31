@@ -1,0 +1,77 @@
+@use "../color.module.scss" as color;
+.footer {
+    background-color: #0e1a18;
+    color: #ffffff;
+    padding: 64px 16px 32px 16px;
+    text-align: center;
+
+
+}
+
+.footerColumns {
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+
+    .introsection{
+        max-width: 520px;
+
+
+        .socialLinks{
+            display: flex;
+            justify-content: flex-start;
+            gap: 16px;
+           
+           
+
+            i{
+           
+                border: 1px solid #7a7f7f;
+                color: #7a7f7f;
+                border-radius: 50%;
+                padding: 9px 10px 8px 10px;
+
+                &:hover{
+                    color: color.$tertiary-color;
+                    border: 1px solid color.$tertiary-color;
+                }
+                   
+            }
+        
+        }
+    }
+}
+
+
+
+.footer a {
+    color: #7a7f7f;
+    text-decoration: none;
+    margin-bottom: 16px;
+    &:hover {
+            color: color.$tertiary-color;}
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+
+.copyright{
+   
+    background-color: #1a2624;
+   padding: 16px;
+  margin: 32px auto 16px auto;
+  max-width: 70%;
+
+}
+
+.column ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

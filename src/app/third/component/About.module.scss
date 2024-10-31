@@ -3,11 +3,13 @@
 @use "../_font.module.scss" as font;
 
 .aboutsection {
-  padding: 32px;
+ 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  padding: 0 16px 64px 16px;
+  gap: 16px;
 
   .abouttext {
     max-width: 550px;
