@@ -2,7 +2,7 @@
 
 ### Links
 
-- **[First Assignment - Live Demo](https://6f221723.first-assignment.pages.dev/)**
+- **[First Assignment - Live Demo](https://first-assignment.pages.dev/)**
 
 The Assignment folder directory:
 

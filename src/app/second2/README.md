@@ -2,7 +2,7 @@
 
 ### Links
 
-- **[Second Assignment Part-2 - Live Demo](https://239e08ad.first-assignment.pages.dev/second2)**
+- **[Second Assignment Part-2 - Live Demo](https://first-assignment.pages.dev/second2)**
 
 The Assignment folder directory:
 
